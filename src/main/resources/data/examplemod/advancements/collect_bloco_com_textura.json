@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Bloco com textura coletado!"
+        },
+        "description": {
+            "text": "Você coletou um bloco com textura!"
+        },
+        "icon": {
+            "item": "examplemod:bloco_com_textura"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "collect_bloco_com_textura": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "examplemod:bloco_com_textura"
+                    }
+                ]
+            }
+        }
+    }
+}
